@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800&display=swap');
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* #MainContainer {
+  text-align: center;
+} */
+
+
+#first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #nineth, #tenth, #eleventh, #twelveth {
+    align-items: center;
+}
+
+#first {
+  font-size: 30vmin;
+  letter-spacing: 50px;
+  text-align: center;
+}
+
+
+#second {
+  font-size: 20vmin;
+  letter-spacing: 70px;
+}
+
+#third {
+  font-size: 14vmin;
+  letter-spacing: 59px;
+}
+
+#fourth {
+  font-size: 10vmin;
+  letter-spacing: 43px;
+}
+
+#fifth {
+  font-size: 6.5vmin;
+  letter-spacing: 43px;
+}
+
+#sixth {
+  font-size: 5vmin;
+  letter-spacing: 40px;
+}
+
+#seventh {
+  font-size: 3.8vmin;
+  letter-spacing: 45px;
+}
+
+#eighth {
+  font-size: 1.8vmin;
+  letter-spacing: 39px;
+}
+
+#nineth {
+  font-size: 1.3vmin;
+  letter-spacing: 42px;
+}
+
+#tenth {
+  font-size: 1vmin;
+  letter-spacing: 50px;
+}
+
+#eleventh {
+  font-size: 0.8vmin;
+  letter-spacing: 39px;
+}
+
+#twelveth {
+  font-size: 0.6vmin;
+  letter-spacing: 61px;
+}
+
+p+p {
+  margin-top: 10px;
+  font-size: 1vmin;
+}
+
+.Main .Sub div {
+  text-decoration: underline;
+  padding: 5vmin;
+}
+
+.Main .Sub > div {
+  color: #fded88;
+}
+
+#MainContainer:hover{
+  background-color: #eee;
+}
+
+.Main p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
